@@ -1,0 +1,94 @@
+.title {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-family: "VT323", monospace;
+  color: #961111;
+  font-size: 84px;
+}
+.body {
+  background: #ffcaca;
+  height: 100vh;
+}
+
+.walletBtnWraper {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  float: left;
+  width: 100%;
+}
+.walletBtn {
+  font-size: 26px;
+  padding: 13px;
+  font-family: "VT323", monospace;
+  color: #961111;
+  background: #d77f7f;
+  border: 5px solid;
+  cursor: pointer;
+}
+.quizQ {
+  margin: auto;
+  max-width: 800px;
+  font-size: 20px;
+  color: #1e60c5;
+  font-family: "VT323", monospace;
+  font-size: 36px;
+}
+.quizA {
+  margin: auto;
+  max-width: 400px;
+}
+.quizOpt {
+  border: 1px solid #333;
+  border-radius: 80px;
+  padding: 8px;
+  margin: 8px 0;
+  text-align: center;
+  font-family: "VT323", monospace;
+  cursor: pointer;
+}
+.quizOpt:hover {
+  background: rgb(151 17 16 / 50%);
+}
+
+.gameover {
+  font-size: 40px;
+  text-align: center;
+  font-family: "VT323", monospace;
+  color: #817f28;
+  margin: auto;
+}
+.claimNFT {
+  font-size: 26px;
+  padding: 13px;
+  font-family: "VT323", monospace;
+  color: #961111;
+  background: #d77f7f;
+  border: 5px solid;
+  cursor: pointer;
+}
+
+.claimContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 80px auto;
+}
+.retry_wallet {
+  font-size: 26px;
+  padding: 13px;
+  font-family: "VT323", monospace;
+  color: #961111;
+  background: #d77f7f;
+  border: 5px solid;
+  cursor: pointer;
+  margin: 0 24px;
+}
